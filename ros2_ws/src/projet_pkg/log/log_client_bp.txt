@@ -1,0 +1,7 @@
+ON : Activer alarme / OFF Desactiver alarme : Traceback (most recent call last):
+  File "/home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg/client_bp", line 33, in <module>
+    sys.exit(load_entry_point('projet-pkg==0.0.0', 'console_scripts', 'client_bp')())
+  File "/home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages/projet_pkg/client_bp.py", line 30, in main
+    cmd = input("ON : Activer alarme / OFF Desactiver alarme : ").strip().lower()
+EOFError: EOF when reading a line
+[ros2run]: Process exited with failure 1

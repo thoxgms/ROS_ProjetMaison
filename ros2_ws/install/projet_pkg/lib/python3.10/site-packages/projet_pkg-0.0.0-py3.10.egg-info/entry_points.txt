@@ -1,0 +1,15 @@
+[console_scripts]
+client_bp = projet_pkg.client_bp:main
+controle_luminosity = projet_pkg.controle_luminosity:main
+controle_presenceInt = projet_pkg.controle_alarme:main
+controle_presenceOut = projet_pkg.controle_buzzer:main
+controle_temperature = projet_pkg.controle_temperature:main
+controle_time = projet_pkg.controle_volet:main
+info_web = projet_pkg.info_web:main
+publisher_luminosity = projet_pkg.publisher_luminosity:main
+publisher_presenceInt = projet_pkg.publisher_presenceInt:main
+publisher_presenceOut = projet_pkg.publisher_presenceOut:main
+publisher_temperature = projet_pkg.publisher_temperature:main
+publisher_time = projet_pkg.publisher_time:main
+service_bp = projet_pkg.service_bp:main
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface Gestion</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <link rel="stylesheet" href="../static/index.css">
+    <script defer src="../static/index.js"></script>
+</head>
+<body>
+    <div class="conteneur">
+        <h1>Interface de Gestion</h1>
+
+        <div class="box">
+            <div class="capteur">
+                <span>Température :</span> 
+                <span id="temperature" class="mode">0.0°C</span>
+            </div>
+            <div class="capteur">
+                <span>Chauffages :</span> 
+                <span id="chauffage" class="mode etat">OFF</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="capteur">
+                <span>Luminosité :</span> 
+                <span id="luminosite" class="mode">0.0 lux</span>
+            </div>
+            <div class="capteur">
+                <span>Lumières :</span> 
+                <span id="lumiere" class="mode etat">OFF</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="capteur">
+                <span>Heure :</span> 
+                <span id="time" class="mode">00:00</span>
+            </div>
+            <div class="capteur">
+                <span>Volets :</span> 
+                <span id="volet" class="mode etat">FERMÉ</span>
+            </div>
+        </div>
+
+
+        <div class="alarme-box">
+            <p><strong>Alarme :</strong> <span id="alarme" class="mode off">OFF</span></p>
+            <button id="alarme_Bouton" class="alarme-bouton alarme-off" onclick="Etat_Alarme()">Click pour Activer/Désactiver l'alarme</button>
+        </div>
+
+        <div class="box">
+            <div class="capteur">
+                <span>Présence Extérieure :</span> 
+                <span id="presence_exterieur" class="mode">Non</span>
+                <br>
+                <span>Présence Intérieure :</span> 
+                <span id="presence_interieur" class="mode">Non</span>
+            </div>
+            <div class="capteur">
+                <span>Buzzer :</span> 
+                <span id="buzzer" class="mode etat">OFF</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+

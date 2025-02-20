@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/package_tp2/package_tp2.egg-info
+writing ../../build/package_tp2/package_tp2.egg-info/PKG-INFO
+writing dependency_links to ../../build/package_tp2/package_tp2.egg-info/dependency_links.txt
+writing entry points to ../../build/package_tp2/package_tp2.egg-info/entry_points.txt
+writing requirements to ../../build/package_tp2/package_tp2.egg-info/requires.txt
+writing top-level names to ../../build/package_tp2/package_tp2.egg-info/top_level.txt
+writing manifest file '../../build/package_tp2/package_tp2.egg-info/SOURCES.txt'
+reading manifest file '../../build/package_tp2/package_tp2.egg-info/SOURCES.txt'
+writing manifest file '../../build/package_tp2/package_tp2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/thomas/ros2_ws/build/package_tp2/build
+creating /home/thomas/ros2_ws/build/package_tp2/build/lib
+creating /home/thomas/ros2_ws/build/package_tp2/build/lib/package_tp2
+copying package_tp2/__init__.py -> /home/thomas/ros2_ws/build/package_tp2/build/lib/package_tp2
+copying package_tp2/capteur2.py -> /home/thomas/ros2_ws/build/package_tp2/build/lib/package_tp2
+copying package_tp2/fusion.py -> /home/thomas/ros2_ws/build/package_tp2/build/lib/package_tp2
+copying package_tp2/capteur1.py -> /home/thomas/ros2_ws/build/package_tp2/build/lib/package_tp2
+running install
+running install_lib
+creating /home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2
+copying /home/thomas/ros2_ws/build/package_tp2/build/lib/package_tp2/__init__.py -> /home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2
+copying /home/thomas/ros2_ws/build/package_tp2/build/lib/package_tp2/capteur2.py -> /home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2
+copying /home/thomas/ros2_ws/build/package_tp2/build/lib/package_tp2/fusion.py -> /home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2
+copying /home/thomas/ros2_ws/build/package_tp2/build/lib/package_tp2/capteur1.py -> /home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2
+byte-compiling /home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2/capteur2.py to capteur2.cpython-310.pyc
+byte-compiling /home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2/fusion.py to fusion.cpython-310.pyc
+byte-compiling /home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2/capteur1.py to capteur1.cpython-310.pyc
+running install_data
+creating /home/thomas/ros2_ws/install/package_tp2/share/ament_index
+creating /home/thomas/ros2_ws/install/package_tp2/share/ament_index/resource_index
+creating /home/thomas/ros2_ws/install/package_tp2/share/ament_index/resource_index/packages
+copying resource/package_tp2 -> /home/thomas/ros2_ws/install/package_tp2/share/ament_index/resource_index/packages
+copying package.xml -> /home/thomas/ros2_ws/install/package_tp2/share/package_tp2
+running install_egg_info
+Copying ../../build/package_tp2/package_tp2.egg-info to /home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing capteur1 script to /home/thomas/ros2_ws/install/package_tp2/lib/package_tp2
+Installing capteur2 script to /home/thomas/ros2_ws/install/package_tp2/lib/package_tp2
+Installing fusion script to /home/thomas/ros2_ws/install/package_tp2/lib/package_tp2
+writing list of installed files to '/home/thomas/ros2_ws/build/package_tp2/install.log'

@@ -1,0 +1,40 @@
+[1.966s] Invoking command in '/home/thogms/ros2_ws/src/projet_pkg': PYTHONPATH=/home/thogms/ros2_ws/build/projet_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/projet_pkg build --build-base /home/thogms/ros2_ws/build/projet_pkg/build install --record /home/thogms/ros2_ws/build/projet_pkg/install.log --single-version-externally-managed install_data
+[2.215s] running egg_info
+[2.215s] writing ../../build/projet_pkg/projet_pkg.egg-info/PKG-INFO
+[2.215s] writing dependency_links to ../../build/projet_pkg/projet_pkg.egg-info/dependency_links.txt
+[2.215s] writing entry points to ../../build/projet_pkg/projet_pkg.egg-info/entry_points.txt
+[2.217s] writing requirements to ../../build/projet_pkg/projet_pkg.egg-info/requires.txt
+[2.217s] writing top-level names to ../../build/projet_pkg/projet_pkg.egg-info/top_level.txt
+[2.217s] reading manifest file '../../build/projet_pkg/projet_pkg.egg-info/SOURCES.txt'
+[2.218s] writing manifest file '../../build/projet_pkg/projet_pkg.egg-info/SOURCES.txt'
+[2.218s] running build
+[2.218s] running build_py
+[2.219s] copying projet_pkg/info_web.py -> /home/thogms/ros2_ws/build/projet_pkg/build/lib/projet_pkg
+[2.219s] copying projet_pkg/client_bp.py -> /home/thogms/ros2_ws/build/projet_pkg/build/lib/projet_pkg
+[2.219s] copying projet_pkg/service_bp.py -> /home/thogms/ros2_ws/build/projet_pkg/build/lib/projet_pkg
+[2.220s] running install
+[2.221s] running install_lib
+[2.222s] copying /home/thogms/ros2_ws/build/projet_pkg/build/lib/projet_pkg/info_web.py -> /home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages/projet_pkg
+[2.222s] copying /home/thogms/ros2_ws/build/projet_pkg/build/lib/projet_pkg/client_bp.py -> /home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages/projet_pkg
+[2.222s] copying /home/thogms/ros2_ws/build/projet_pkg/build/lib/projet_pkg/service_bp.py -> /home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages/projet_pkg
+[2.223s] byte-compiling /home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages/projet_pkg/info_web.py to info_web.cpython-310.pyc
+[2.228s] byte-compiling /home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages/projet_pkg/client_bp.py to client_bp.cpython-310.pyc
+[2.228s] byte-compiling /home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages/projet_pkg/service_bp.py to service_bp.cpython-310.pyc
+[2.228s] running install_data
+[2.228s] running install_egg_info
+[2.231s] removing '/home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages/projet_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.231s] Copying ../../build/projet_pkg/projet_pkg.egg-info to /home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages/projet_pkg-0.0.0-py3.10.egg-info
+[2.234s] running install_scripts
+[2.264s] Installing controle_luminosity script to /home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg
+[2.264s] Installing controle_presenceInt script to /home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg
+[2.264s] Installing controle_presenceOut script to /home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg
+[2.264s] Installing controle_temperature script to /home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg
+[2.265s] Installing controle_time script to /home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg
+[2.265s] Installing publisher_luminosity script to /home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg
+[2.265s] Installing publisher_presenceInt script to /home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg
+[2.265s] Installing publisher_presenceOut script to /home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg
+[2.265s] Installing publisher_temperature script to /home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg
+[2.265s] Installing publisher_time script to /home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg
+[2.265s] Installing web script to /home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg
+[2.265s] writing list of installed files to '/home/thogms/ros2_ws/build/projet_pkg/install.log'
+[2.345s] Invoked command in '/home/thogms/ros2_ws/src/projet_pkg' returned '0': PYTHONPATH=/home/thogms/ros2_ws/build/projet_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/projet_pkg build --build-base /home/thogms/ros2_ws/build/projet_pkg/build install --record /home/thogms/ros2_ws/build/projet_pkg/install.log --single-version-externally-managed install_data

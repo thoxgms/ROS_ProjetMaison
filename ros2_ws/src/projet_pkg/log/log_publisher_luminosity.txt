@@ -1,0 +1,24 @@
+[INFO] [1740092466.882977912] [luminosity_publisher]: Noeud Luminosity Publisher : OK
+[INFO] [1740092471.876348797] [luminosity_publisher]: Luminosité : 72.29 lux
+[INFO] [1740092476.883700171] [luminosity_publisher]: Luminosité : 942.58 lux
+[INFO] [1740092481.876609204] [luminosity_publisher]: Luminosité : 227.52 lux
+[INFO] [1740092486.874888127] [luminosity_publisher]: Luminosité : 81.9 lux
+[INFO] [1740092491.882417434] [luminosity_publisher]: Luminosité : 131.36 lux
+[INFO] [1740092496.879578582] [luminosity_publisher]: Luminosité : 667.49 lux
+Traceback (most recent call last):
+  File "/home/thogms/ros2_ws/install/projet_pkg/lib/projet_pkg/publisher_luminosity", line 33, in <module>
+    sys.exit(load_entry_point('projet-pkg==0.0.0', 'console_scripts', 'publisher_luminosity')())
+  File "/home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages/projet_pkg/publisher_luminosity.py", line 31, in main
+    rclpy.spin(luminosity_publisher)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 226, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 612, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+[ros2run]: Process exited with failure 1

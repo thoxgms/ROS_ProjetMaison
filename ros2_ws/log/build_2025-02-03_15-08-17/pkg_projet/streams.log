@@ -1,0 +1,41 @@
+[3.031s] Invoking command in '/home/thomas/ros2_ws/src/pkg_projet': PYTHONPATH=/home/thomas/ros2_ws/build/pkg_projet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/ros2_ws/install/pkg_projet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_projet build --build-base /home/thomas/ros2_ws/build/pkg_projet/build install --record /home/thomas/ros2_ws/build/pkg_projet/install.log --single-version-externally-managed install_data
+[3.840s] running egg_info
+[3.840s] creating ../../build/pkg_projet/pkg_projet.egg-info
+[3.840s] writing ../../build/pkg_projet/pkg_projet.egg-info/PKG-INFO
+[3.840s] writing dependency_links to ../../build/pkg_projet/pkg_projet.egg-info/dependency_links.txt
+[3.840s] writing entry points to ../../build/pkg_projet/pkg_projet.egg-info/entry_points.txt
+[3.840s] writing requirements to ../../build/pkg_projet/pkg_projet.egg-info/requires.txt
+[3.840s] writing top-level names to ../../build/pkg_projet/pkg_projet.egg-info/top_level.txt
+[3.840s] writing manifest file '../../build/pkg_projet/pkg_projet.egg-info/SOURCES.txt'
+[3.840s] reading manifest file '../../build/pkg_projet/pkg_projet.egg-info/SOURCES.txt'
+[3.840s] writing manifest file '../../build/pkg_projet/pkg_projet.egg-info/SOURCES.txt'
+[3.870s] running build
+[3.871s] running build_py
+[3.871s] creating /home/thomas/ros2_ws/build/pkg_projet/build
+[3.871s] creating /home/thomas/ros2_ws/build/pkg_projet/build/lib
+[3.871s] creating /home/thomas/ros2_ws/build/pkg_projet/build/lib/pkg_projet
+[3.871s] copying pkg_projet/__init__.py -> /home/thomas/ros2_ws/build/pkg_projet/build/lib/pkg_projet
+[3.871s] copying pkg_projet/alarm_service.py -> /home/thomas/ros2_ws/build/pkg_projet/build/lib/pkg_projet
+[3.871s] copying pkg_projet/alarm_client.py -> /home/thomas/ros2_ws/build/pkg_projet/build/lib/pkg_projet
+[3.871s] running install
+[3.871s] running install_lib
+[3.871s] creating /home/thomas/ros2_ws/install/pkg_projet/lib/python3.10/site-packages/pkg_projet
+[3.871s] copying /home/thomas/ros2_ws/build/pkg_projet/build/lib/pkg_projet/__init__.py -> /home/thomas/ros2_ws/install/pkg_projet/lib/python3.10/site-packages/pkg_projet
+[3.871s] copying /home/thomas/ros2_ws/build/pkg_projet/build/lib/pkg_projet/alarm_service.py -> /home/thomas/ros2_ws/install/pkg_projet/lib/python3.10/site-packages/pkg_projet
+[3.871s] copying /home/thomas/ros2_ws/build/pkg_projet/build/lib/pkg_projet/alarm_client.py -> /home/thomas/ros2_ws/install/pkg_projet/lib/python3.10/site-packages/pkg_projet
+[3.871s] byte-compiling /home/thomas/ros2_ws/install/pkg_projet/lib/python3.10/site-packages/pkg_projet/__init__.py to __init__.cpython-310.pyc
+[3.871s] byte-compiling /home/thomas/ros2_ws/install/pkg_projet/lib/python3.10/site-packages/pkg_projet/alarm_service.py to alarm_service.cpython-310.pyc
+[3.871s] byte-compiling /home/thomas/ros2_ws/install/pkg_projet/lib/python3.10/site-packages/pkg_projet/alarm_client.py to alarm_client.cpython-310.pyc
+[3.872s] running install_data
+[3.872s] creating /home/thomas/ros2_ws/install/pkg_projet/share/ament_index
+[3.872s] creating /home/thomas/ros2_ws/install/pkg_projet/share/ament_index/resource_index
+[3.872s] creating /home/thomas/ros2_ws/install/pkg_projet/share/ament_index/resource_index/packages
+[3.872s] copying resource/pkg_projet -> /home/thomas/ros2_ws/install/pkg_projet/share/ament_index/resource_index/packages
+[3.872s] copying package.xml -> /home/thomas/ros2_ws/install/pkg_projet/share/pkg_projet
+[3.872s] running install_egg_info
+[3.872s] Copying ../../build/pkg_projet/pkg_projet.egg-info to /home/thomas/ros2_ws/install/pkg_projet/lib/python3.10/site-packages/pkg_projet-0.0.0-py3.10.egg-info
+[3.880s] running install_scripts
+[3.975s] Installing alarm_client script to /home/thomas/ros2_ws/install/pkg_projet/lib/pkg_projet
+[3.976s] Installing alarm_service script to /home/thomas/ros2_ws/install/pkg_projet/lib/pkg_projet
+[3.976s] writing list of installed files to '/home/thomas/ros2_ws/build/pkg_projet/install.log'
+[4.072s] Invoked command in '/home/thomas/ros2_ws/src/pkg_projet' returned '0': PYTHONPATH=/home/thomas/ros2_ws/build/pkg_projet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/ros2_ws/install/pkg_projet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_projet build --build-base /home/thomas/ros2_ws/build/pkg_projet/build install --record /home/thomas/ros2_ws/build/pkg_projet/install.log --single-version-externally-managed install_data

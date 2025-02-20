@@ -1,0 +1,45 @@
+[0.901s] Invoking command in '/home/thomas/ros2_ws/src/package_tp2_b': PYTHONPATH=/home/thomas/ros2_ws/build/package_tp2_b/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/package_tp2_b build --build-base /home/thomas/ros2_ws/build/package_tp2_b/build install --record /home/thomas/ros2_ws/build/package_tp2_b/install.log --single-version-externally-managed install_data
+[1.213s] running egg_info
+[1.213s] creating ../../build/package_tp2_b/package_tp2_b.egg-info
+[1.214s] writing ../../build/package_tp2_b/package_tp2_b.egg-info/PKG-INFO
+[1.214s] writing dependency_links to ../../build/package_tp2_b/package_tp2_b.egg-info/dependency_links.txt
+[1.215s] writing entry points to ../../build/package_tp2_b/package_tp2_b.egg-info/entry_points.txt
+[1.215s] writing requirements to ../../build/package_tp2_b/package_tp2_b.egg-info/requires.txt
+[1.216s] writing top-level names to ../../build/package_tp2_b/package_tp2_b.egg-info/top_level.txt
+[1.216s] writing manifest file '../../build/package_tp2_b/package_tp2_b.egg-info/SOURCES.txt'
+[1.221s] reading manifest file '../../build/package_tp2_b/package_tp2_b.egg-info/SOURCES.txt'
+[1.221s] writing manifest file '../../build/package_tp2_b/package_tp2_b.egg-info/SOURCES.txt'
+[1.223s] running build
+[1.224s] running build_py
+[1.224s] creating /home/thomas/ros2_ws/build/package_tp2_b/build
+[1.224s] creating /home/thomas/ros2_ws/build/package_tp2_b/build/lib
+[1.224s] creating /home/thomas/ros2_ws/build/package_tp2_b/build/lib/package_tp2_b
+[1.225s] copying package_tp2_b/__init__.py -> /home/thomas/ros2_ws/build/package_tp2_b/build/lib/package_tp2_b
+[1.225s] copying package_tp2_b/capteur2.py -> /home/thomas/ros2_ws/build/package_tp2_b/build/lib/package_tp2_b
+[1.225s] copying package_tp2_b/fusion.py -> /home/thomas/ros2_ws/build/package_tp2_b/build/lib/package_tp2_b
+[1.225s] copying package_tp2_b/capteur1.py -> /home/thomas/ros2_ws/build/package_tp2_b/build/lib/package_tp2_b
+[1.226s] running install
+[1.226s] running install_lib
+[1.227s] creating /home/thomas/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages/package_tp2_b
+[1.229s] copying /home/thomas/ros2_ws/build/package_tp2_b/build/lib/package_tp2_b/__init__.py -> /home/thomas/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages/package_tp2_b
+[1.229s] copying /home/thomas/ros2_ws/build/package_tp2_b/build/lib/package_tp2_b/capteur2.py -> /home/thomas/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages/package_tp2_b
+[1.229s] copying /home/thomas/ros2_ws/build/package_tp2_b/build/lib/package_tp2_b/fusion.py -> /home/thomas/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages/package_tp2_b
+[1.229s] copying /home/thomas/ros2_ws/build/package_tp2_b/build/lib/package_tp2_b/capteur1.py -> /home/thomas/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages/package_tp2_b
+[1.230s] byte-compiling /home/thomas/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages/package_tp2_b/__init__.py to __init__.cpython-310.pyc
+[1.231s] byte-compiling /home/thomas/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages/package_tp2_b/capteur2.py to capteur2.cpython-310.pyc
+[1.231s] byte-compiling /home/thomas/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages/package_tp2_b/fusion.py to fusion.cpython-310.pyc
+[1.232s] byte-compiling /home/thomas/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages/package_tp2_b/capteur1.py to capteur1.cpython-310.pyc
+[1.232s] running install_data
+[1.233s] creating /home/thomas/ros2_ws/install/package_tp2_b/share/ament_index
+[1.233s] creating /home/thomas/ros2_ws/install/package_tp2_b/share/ament_index/resource_index
+[1.233s] creating /home/thomas/ros2_ws/install/package_tp2_b/share/ament_index/resource_index/packages
+[1.233s] copying resource/package_tp2_b -> /home/thomas/ros2_ws/install/package_tp2_b/share/ament_index/resource_index/packages
+[1.233s] copying package.xml -> /home/thomas/ros2_ws/install/package_tp2_b/share/package_tp2_b
+[1.236s] running install_egg_info
+[1.236s] Copying ../../build/package_tp2_b/package_tp2_b.egg-info to /home/thomas/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages/package_tp2_b-0.0.0-py3.10.egg-info
+[1.237s] running install_scripts
+[1.266s] Installing capteur1 script to /home/thomas/ros2_ws/install/package_tp2_b/lib/package_tp2_b
+[1.266s] Installing capteur2 script to /home/thomas/ros2_ws/install/package_tp2_b/lib/package_tp2_b
+[1.266s] Installing fusion script to /home/thomas/ros2_ws/install/package_tp2_b/lib/package_tp2_b
+[1.267s] writing list of installed files to '/home/thomas/ros2_ws/build/package_tp2_b/install.log'
+[1.328s] Invoked command in '/home/thomas/ros2_ws/src/package_tp2_b' returned '0': PYTHONPATH=/home/thomas/ros2_ws/build/package_tp2_b/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/package_tp2_b build --build-base /home/thomas/ros2_ws/build/package_tp2_b/build install --record /home/thomas/ros2_ws/build/package_tp2_b/install.log --single-version-externally-managed install_data

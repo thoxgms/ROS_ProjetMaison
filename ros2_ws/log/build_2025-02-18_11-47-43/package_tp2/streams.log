@@ -1,0 +1,23 @@
+[2.165s] Invoking command in '/home/thogms/ros2_ws/src/package_tp2': PYTHONPATH=/home/thogms/ros2_ws/build/package_tp2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thogms/ros2_ws/install/package_tp2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/package_tp2 build --build-base /home/thogms/ros2_ws/build/package_tp2/build install --record /home/thogms/ros2_ws/build/package_tp2/install.log --single-version-externally-managed install_data
+[2.486s] running egg_info
+[2.487s] writing ../../build/package_tp2/package_tp2.egg-info/PKG-INFO
+[2.487s] writing dependency_links to ../../build/package_tp2/package_tp2.egg-info/dependency_links.txt
+[2.487s] writing entry points to ../../build/package_tp2/package_tp2.egg-info/entry_points.txt
+[2.488s] writing requirements to ../../build/package_tp2/package_tp2.egg-info/requires.txt
+[2.488s] writing top-level names to ../../build/package_tp2/package_tp2.egg-info/top_level.txt
+[2.491s] reading manifest file '../../build/package_tp2/package_tp2.egg-info/SOURCES.txt'
+[2.492s] writing manifest file '../../build/package_tp2/package_tp2.egg-info/SOURCES.txt'
+[2.492s] running build
+[2.492s] running build_py
+[2.493s] running install
+[2.494s] running install_lib
+[2.496s] running install_data
+[2.496s] running install_egg_info
+[2.499s] removing '/home/thogms/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.500s] Copying ../../build/package_tp2/package_tp2.egg-info to /home/thogms/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2-0.0.0-py3.10.egg-info
+[2.502s] running install_scripts
+[2.538s] Installing capteur1 script to /home/thogms/ros2_ws/install/package_tp2/lib/package_tp2
+[2.538s] Installing capteur2 script to /home/thogms/ros2_ws/install/package_tp2/lib/package_tp2
+[2.538s] Installing fusion script to /home/thogms/ros2_ws/install/package_tp2/lib/package_tp2
+[2.538s] writing list of installed files to '/home/thogms/ros2_ws/build/package_tp2/install.log'
+[2.603s] Invoked command in '/home/thogms/ros2_ws/src/package_tp2' returned '0': PYTHONPATH=/home/thogms/ros2_ws/build/package_tp2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thogms/ros2_ws/install/package_tp2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/package_tp2 build --build-base /home/thogms/ros2_ws/build/package_tp2/build install --record /home/thogms/ros2_ws/build/package_tp2/install.log --single-version-externally-managed install_data

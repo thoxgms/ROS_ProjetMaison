@@ -1,0 +1,23 @@
+[0.916s] Invoking command in '/home/thomas/ros2_ws/src/package_tp2': PYTHONPATH=/home/thomas/ros2_ws/build/package_tp2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/package_tp2 build --build-base /home/thomas/ros2_ws/build/package_tp2/build install --record /home/thomas/ros2_ws/build/package_tp2/install.log --single-version-externally-managed install_data
+[1.250s] running egg_info
+[1.253s] writing ../../build/package_tp2/package_tp2.egg-info/PKG-INFO
+[1.256s] writing dependency_links to ../../build/package_tp2/package_tp2.egg-info/dependency_links.txt
+[1.257s] writing entry points to ../../build/package_tp2/package_tp2.egg-info/entry_points.txt
+[1.259s] writing requirements to ../../build/package_tp2/package_tp2.egg-info/requires.txt
+[1.260s] writing top-level names to ../../build/package_tp2/package_tp2.egg-info/top_level.txt
+[1.263s] reading manifest file '../../build/package_tp2/package_tp2.egg-info/SOURCES.txt'
+[1.264s] writing manifest file '../../build/package_tp2/package_tp2.egg-info/SOURCES.txt'
+[1.265s] running build
+[1.265s] running build_py
+[1.266s] running install
+[1.267s] running install_lib
+[1.268s] running install_data
+[1.268s] running install_egg_info
+[1.270s] removing '/home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.270s] Copying ../../build/package_tp2/package_tp2.egg-info to /home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages/package_tp2-0.0.0-py3.10.egg-info
+[1.281s] running install_scripts
+[1.313s] Installing capteur1 script to /home/thomas/ros2_ws/install/package_tp2/lib/package_tp2
+[1.318s] Installing capteur2 script to /home/thomas/ros2_ws/install/package_tp2/lib/package_tp2
+[1.319s] Installing fusion script to /home/thomas/ros2_ws/install/package_tp2/lib/package_tp2
+[1.321s] writing list of installed files to '/home/thomas/ros2_ws/build/package_tp2/install.log'
+[1.373s] Invoked command in '/home/thomas/ros2_ws/src/package_tp2' returned '0': PYTHONPATH=/home/thomas/ros2_ws/build/package_tp2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/ros2_ws/install/package_tp2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/package_tp2 build --build-base /home/thomas/ros2_ws/build/package_tp2/build install --record /home/thomas/ros2_ws/build/package_tp2/install.log --single-version-externally-managed install_data

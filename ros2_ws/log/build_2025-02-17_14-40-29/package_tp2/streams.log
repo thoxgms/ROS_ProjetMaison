@@ -1,0 +1,33 @@
+[2.292s] Invoking command in '/home/thogms/ros2_ws/src/package_tp2': PYTHONPATH=/home/thogms/ros2_ws/build/package_tp2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thogms/ros2_ws/install/package_tp2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/package_tp2 build --build-base /home/thogms/ros2_ws/build/package_tp2/build install --record /home/thogms/ros2_ws/build/package_tp2/install.log --single-version-externally-managed install_data
+[2.449s] Traceback (most recent call last):
+[2.449s]   File "/home/thogms/ros2_ws/src/package_tp2/setup.py", line 1, in <module>
+[2.449s]     from setuptools import find_packages, setup
+[2.449s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[2.461s]     import setuptools.version
+[2.461s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[2.467s]     import pkg_resources
+[2.467s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[2.469s]     def _initialize_master_working_set():
+[2.469s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[2.469s]     f(*args, **kwargs)
+[2.469s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[2.469s]     working_set = WorkingSet._build_master()
+[2.469s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[2.469s]     ws = cls()
+[2.469s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[2.469s]     self.add_entry(entry)
+[2.469s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[2.469s]     for dist in find_distributions(entry, True):
+[2.469s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[2.469s]     for dist in factory(fullpath):
+[2.469s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+[2.470s]     yield Distribution.from_location(
+[2.470s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2603, in from_location
+[2.470s]     return cls(
+[2.470s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2584, in __init__
+[2.470s]     self._version = safe_version(version)
+[2.470s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1323, in safe_version
+[2.470s]     return str(packaging.version.Version(version))
+[2.474s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 261, in __init__
+[2.478s]     def __init__(self, version: str) -> None:
+[2.478s] KeyboardInterrupt

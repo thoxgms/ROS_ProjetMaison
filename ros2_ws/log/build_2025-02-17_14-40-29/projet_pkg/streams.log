@@ -1,0 +1,39 @@
+[2.292s] Invoking command in '/home/thogms/ros2_ws/src/projet_pkg': PYTHONPATH=/home/thogms/ros2_ws/build/projet_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/projet_pkg build --build-base /home/thogms/ros2_ws/build/projet_pkg/build install --record /home/thogms/ros2_ws/build/projet_pkg/install.log --single-version-externally-managed install_data
+[2.426s] Traceback (most recent call last):
+[2.426s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2360, in _normalize_cached
+[2.451s]     return _cache[filename]
+[2.451s] KeyError: '/home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages'
+[2.451s] 
+[2.451s] During handling of the above exception, another exception occurred:
+[2.451s] 
+[2.451s] Traceback (most recent call last):
+[2.451s]   File "/home/thogms/ros2_ws/src/projet_pkg/setup.py", line 1, in <module>
+[2.451s]     from setuptools import find_packages, setup
+[2.451s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[2.452s]     import setuptools.version
+[2.452s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[2.452s]     import pkg_resources
+[2.452s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[2.452s]     def _initialize_master_working_set():
+[2.452s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[2.452s]     f(*args, **kwargs)
+[2.452s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[2.453s]     working_set = WorkingSet._build_master()
+[2.453s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[2.453s]     ws = cls()
+[2.453s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[2.453s]     self.add_entry(entry)
+[2.454s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[2.454s]     for dist in find_distributions(entry, True):
+[2.454s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2048, in find_on_path
+[2.454s]     path_item = _normalize_cached(path_item)
+[2.454s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2362, in _normalize_cached
+[2.454s]     _cache[filename] = result = normalize_path(filename)
+[2.454s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2343, in normalize_path
+[2.455s]     return os.path.normcase(os.path.realpath(os.path.normpath(
+[2.455s]   File "/usr/lib/python3.10/posixpath.py", line 396, in realpath
+[2.456s]     path, ok = _joinrealpath(filename[:0], filename, strict, {})
+[2.456s]   File "/usr/lib/python3.10/posixpath.py", line 431, in _joinrealpath
+[2.456s]     st = os.lstat(newpath)
+[2.456s] KeyboardInterrupt
+[2.487s] Invoked command in '/home/thogms/ros2_ws/src/projet_pkg' returned '-2': PYTHONPATH=/home/thogms/ros2_ws/build/projet_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thogms/ros2_ws/install/projet_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/projet_pkg build --build-base /home/thogms/ros2_ws/build/projet_pkg/build install --record /home/thogms/ros2_ws/build/projet_pkg/install.log --single-version-externally-managed install_data

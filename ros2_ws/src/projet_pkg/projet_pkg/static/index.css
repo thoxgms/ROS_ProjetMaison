@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6e5959;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.conteneur {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgb(220, 219, 219);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgb(230, 180, 180);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: black;
+}
+
+.capteur {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.capteur:last-child {
+    border-bottom: none;
+}
+
+.mode {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color : rgb(128, 8, 142)
+}
+
+.etat {
+    color: blue; 
+    font-weight: bold; 
+}
+
+.on { 
+    color: green; 
+    font-weight: bold;
+}
+
+.off { 
+    color: red; 
+}
+
+
+.alarme-box {
+    margin-top: 20px;
+}
+
+.alarme-bouton {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alarme-on { background: red; }
+.alarme-off { background: green; }

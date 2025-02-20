@@ -1,0 +1,39 @@
+[2.305s] Invoking command in '/home/thogms/ros2_ws/src/package_tp2_b': PYTHONPATH=/home/thogms/ros2_ws/build/package_tp2_b/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thogms/ros2_ws/install/package_tp2_b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/package_tp2_b build --build-base /home/thogms/ros2_ws/build/package_tp2_b/build install --record /home/thogms/ros2_ws/build/package_tp2_b/install.log --single-version-externally-managed install_data
+[2.436s] Traceback (most recent call last):
+[2.436s]   File "/home/thogms/ros2_ws/src/package_tp2_b/setup.py", line 1, in <module>
+[2.436s]     from setuptools import find_packages, setup
+[2.436s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[2.447s]     import setuptools.version
+[2.447s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[2.447s]     import pkg_resources
+[2.447s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>
+[2.453s]     __import__('pkg_resources.extern.packaging.requirements')
+[2.453s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py", line 10, in <module>
+[2.465s]     from pkg_resources.extern.pyparsing import (  # noqa
+[2.466s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[2.466s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[2.466s]   File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+[2.466s]   File "<frozen importlib._bootstrap>", line 571, in module_from_spec
+[2.466s]   File "/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py", line 52, in create_module
+[2.466s]     return self.load_module(spec.name)
+[2.466s]   File "/usr/lib/python3/dist-packages/pkg_resources/extern/__init__.py", line 37, in load_module
+[2.466s]     __import__(extant)
+[2.466s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 5391, in <module>
+[2.466s]     _commasepitem = Combine(OneOrMore(Word(printables, excludeChars=',') +
+[2.466s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 2703, in __init__
+[2.466s]     self.re = re.compile( self.reString )
+[2.466s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[2.466s]     return _compile(pattern, flags)
+[2.467s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[2.467s]     p = sre_compile.compile(pattern, flags)
+[2.467s]   File "/usr/lib/python3.10/sre_compile.py", line 792, in compile
+[2.467s]     code = _code(p, flags)
+[2.467s]   File "/usr/lib/python3.10/sre_compile.py", line 631, in _code
+[2.467s]     _compile(code, p.data, flags)
+[2.467s]   File "/usr/lib/python3.10/sre_compile.py", line 164, in _compile
+[2.467s]     _compile(code, av[2], flags)
+[2.467s]   File "/usr/lib/python3.10/sre_compile.py", line 136, in _compile
+[2.467s]     charset, hascased = _optimize_charset(av, iscased, tolower, fixes)
+[2.467s]   File "/usr/lib/python3.10/sre_compile.py", line 296, in _optimize_charset
+[2.467s]     charmap = bytearray(256)
+[2.468s] KeyboardInterrupt
