@@ -6,18 +6,18 @@ class Alarme_Service(Node):
 
     def __init__(self):
         super().__init__('alarme_service')
-        self.srv = self.create_service(SetBool, 'etat_alarme', self.etat_alarme_callback)
+        self.srv = self.create_service(SetBool, 'etat_alarme', self.data_etat_alarme)
         self.etat_alarme = False
         self.get_logger().info('Service BP alarme : OK')
 
 
-    def etat_alarme_callback(self, requete, reponse):
+    def daata_etat_alarme(self, requete, reponse):
         if requete.data == self.etat_alarme:
-            reponse.success = False
+            reponse.etat = False
             reponse.message = "Alarme deja dans cet état"
         else:
             self.etat_alarme = requete.data
-            reponse.success = True
+            reponse.etat = True
             if self.etat_alarme :
                 reponse.message = "ALARME ON" 
             else :
