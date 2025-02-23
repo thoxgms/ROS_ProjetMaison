@@ -1,6 +1,6 @@
 var socket = io();
 
-socket.on('update_data', function(data) {
+socket.on('etat_data', function(data) {
     document.getElementById('temperature').innerText = data.temperature + "°C";
     document.getElementById('luminosite').innerText = data.luminosite + " lux";
     document.getElementById('presence_exterieur').innerText = data.presence_exterieur ? "Oui" : "Non";
