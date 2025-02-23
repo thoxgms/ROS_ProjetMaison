@@ -40,7 +40,7 @@ class Capteur_Subscriber(Node):
                 capteur_data["chauffage"] = "ON"
             else :
                 capteur_data["chauffage"] = "OFF"
-            socketio.emit('update_data', capteur_data)
+            socketio.emit('etat_data', capteur_data)
 
     def subscriber_luminosity(self, msg):
         if capteur_data["alarme"] == "OFF":
@@ -49,7 +49,7 @@ class Capteur_Subscriber(Node):
                 capteur_data["lumiere"] = "ON" 
             else :
                 capteur_data["lumiere"] = "OFF"
-            socketio.emit('update_data', capteur_data)
+            socketio.emit('etat_data', capteur_data)
 
     def subscriber_presence_interieur(self, msg):
         if capteur_data["alarme"] == "ON":
@@ -58,7 +58,7 @@ class Capteur_Subscriber(Node):
                 capteur_data["buzzer"] = "ON"
             else :
                 capteur_data["buzzer"] = "OFF"
-            socketio.emit('update_data', capteur_data)
+            socketio.emit('etat_data', capteur_data)
 
     def subscriber_presence_exterieur(self, msg):
         if capteur_data["alarme"] == "ON":
@@ -67,7 +67,7 @@ class Capteur_Subscriber(Node):
                 capteur_data["buzzer"] = "ON" 
             else :
                 capteur_data["buzzer"] = "OFF"
-            socketio.emit('update_data', capteur_data)
+            socketio.emit('etat_data', capteur_data)
 
     def subscriber_time(self, msg):
         if capteur_data["alarme"] == "OFF":
@@ -76,7 +76,7 @@ class Capteur_Subscriber(Node):
                 capteur_data["volet"] = "OUVERT" 
             else :
                 capteur_data["volet"] = "FERME"
-            socketio.emit('update_data', capteur_data)
+            socketio.emit('etat_data', capteur_data)
 
 
 class Alarme_Client(Node):
